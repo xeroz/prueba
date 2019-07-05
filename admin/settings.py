@@ -129,3 +129,13 @@ STATICFILES_DIRS = [
 
 LOGIN_REDIRECT_URL = '/home'
 LOGIN_URL = '/'
+
+#Email
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'elbarto2589@gmail.com'
+EMAIL_HOST_PASSWORD = 'breikers'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+DOMAIN = 'http://127.0.0.1:8000/'

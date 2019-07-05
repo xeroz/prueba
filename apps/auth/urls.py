@@ -20,7 +20,7 @@ url_done = {
 
 
 urlpatterns = [
-    path('login/',
+    path('',
          auth_views.LoginView.as_view(
              template_name='auth/login.html'),
          name='login'),
